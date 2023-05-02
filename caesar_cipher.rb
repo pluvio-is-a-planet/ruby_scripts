@@ -12,3 +12,6 @@ def caesar_cipher(string, shift_factor)
   end
   cipher.map { |int| int.chr }.join
 end
+
+caesar_cipher('ThIS!? _is_ A coMPlex $[Text]', 3)
+# => "WkLV!? _lv_ D frPSoha $[Whaw]"
