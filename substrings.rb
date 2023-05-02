@@ -1,5 +1,3 @@
-require 'pry-byebug'
-
 def substrings(string, dictionary)
   result = Hash.new(0)
   string.downcase!
